@@ -8,7 +8,7 @@ app.set("view engine","ejs");
 //app.use(express.urlencoded({extended:false}));
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://akankshag176:akanksha-gupta2001@cluster0.02qggi0.mongodb.net/?retryWrites=true&w=majority/akankshadb");
+mongoose.connect("mongodb+srv://akankshag176:akanksha-gupta2001@cluster0.02qggi0.mongodb.net/?retryWrites=true&w=majority");
 
 const urlschema=new mongoose.Schema({
     full:{
